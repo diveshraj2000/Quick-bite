@@ -25,7 +25,7 @@ function Header() {
         </div>
         <div className="p-3">
           {' '}
-          <Link to="/about">About Us</Link>
+          <Link to="/about">About Uss</Link>
         </div>
         <div className="p-3">
           <Link to="/contact">Contact Us</Link>
