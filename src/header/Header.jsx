@@ -32,73 +32,6 @@ function Header() {
   };
   // console.log(cartItems);
   return (
-    // <div className="bg-slate-200 shadow-xl">
-    //   <div className="flex justify-between items-center p-4">
-    //     {/* Logo and Brand Name */}
-    //     <div className="flex items-center">
-    //       <img className="h-24" src={restaurantLog} alt="restaurant logo" />
-    //       <span className="font-bold text-2xl">QuickBite</span>
-    //     </div>
-
-    //     {/* Hamburger Icon for Small Screens */}
-    //     <div className="lg:hidden">
-    //       <button
-    //         onClick={toggleMenu}
-    //         className="text-gray-700 focus:outline-none"
-    //       >
-    //         <svg
-    //           className="w-6 h-6"
-    //           fill="none"
-    //           stroke="currentColor"
-    //           viewBox="0 0 24 24"
-    //           xmlns="http://www.w3.org/2000/svg"
-    //         >
-    //           <path
-    //             strokeLinecap="round"
-    //             strokeLinejoin="round"
-    //             strokeWidth="2"
-    //             d="M4 6h16M4 12h16m-7 6h7"
-    //           />
-    //         </svg>
-    //       </button>
-    //     </div>
-
-    //     {/* Navbar Links */}
-    //     <div
-    //       className={`lg:flex ${
-    //         isOpen ? 'block' : 'hidden'
-    //       } flex-col lg:flex-row lg:items-center lg:space-x-6`}
-    //     >
-    //       <div className="nav-items flex flex-col lg:flex-row justify-start items-start lg:items-center lg:p-2 mr-10 my-font">
-    //         <div className="p-3">Online status:🟢</div>
-    //         <div className="p-3">
-    //           <Link to="/">Home</Link>
-    //         </div>
-
-    //         <div className="p-3">
-    //           <Link to="/contact">Contact Us</Link>
-    //         </div>
-    //         <div className="p-3">
-    //           {totalQty > 0 ? (
-    //             <div className="font-semibold">
-    //               <Link to="/cart">Cart ({totalQty} items)</Link>
-    //             </div>
-    //           ) : (
-    //             <Link to="/cart">Cart</Link>
-    //           )}
-    //         </div>
-    //         <div
-    //           className="p-3 font-semibold cursor-pointer"
-    //           onClick={handleBtn}
-    //         >
-    //           {btnName}
-    //         </div>
-    //         <div className="p-3 font-semibold">{loggedInUser}</div>
-    //       </div>
-    //     </div>
-    //   </div>
-    // </div>
-
     <div className="bg-slate-200 shadow-xl">
       <div className="flex md:justify-between items-center p-4 ">
         {/* Logo and Brand Name */}
@@ -152,40 +85,6 @@ function Header() {
       </div>
     </div>
   );
-
-  //   <div className="flex justify-between bg-slate-200 shadow-xl">
-
-  //     <div className="flex items-center">
-  //       <img className=" h-24" src={restaurantLog} alt="restaurant logo" />
-  //       <span className="font-bold text-2xl6">QuickBite</span>
-  //     </div>
-  //     <div className="nav-items flex justify-start items-center p-2 mr-10 my-font">
-  //       <div className="p-3">Online status:🟢</div>
-  //       <div className="p-3">
-  //         <Link to="/">Home</Link>
-  //       </div>
-
-  //       <div className="p-3">
-  //         <Link to="/contact">Contact Us</Link>
-  //       </div>
-  //       <div className="">
-  //         {totalQty > 0 ? (
-  //           <div className="p-3 font-semibold">
-  //             <Link to="/cart">Cart ({totalQty} items)</Link>
-  //           </div>
-  //         ) : (
-  //           <div className="p-3">
-  //             <Link to="/cart">Cart</Link>
-  //           </div>
-  //         )}
-  //       </div>
-  //       <div className="p-3 font-semibold" onClick={handleBtn}>
-  //         {btnName}
-  //       </div>
-  //       <div className="  font-semibold">{loggedInUser}</div>
-  //     </div>
-  //   </div>
-  // );
 }
 
 export default Header;
