@@ -6,3 +6,9 @@
   letter-spacing: -0.3px;
   color: rgba(2, 6, 12, 0.6);
 }
+
+.pos-rel {
+  position: relative;
+  top: -24px;
+  left: -24px;
+}

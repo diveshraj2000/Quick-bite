@@ -1,4 +1,35 @@
-.res-container{
+.res-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.req-header {
+  background: url('../images/header_img.png') no-repeat;
+  background-size: contain;
+
+  height: 34vw;
+}
+
+.header-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  max-width: 50%;
+  bottom: -50%;
+  left: 2vw;
+  /* gap: 6.5vw; */
+}
+
+@media only screen and (max-width: 576px) {
+  .header-content {
+    position: relative;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: start;
+    max-width: 100%;
+    bottom: -75%;
+
+    /* gap: 6.5vw; */
+  }
 }

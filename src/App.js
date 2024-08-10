@@ -11,6 +11,7 @@ import { lazy } from 'react';
 import { Provider } from 'react-redux';
 import Cart from './Cart';
 import appStore from './utils/appStore';
+import Success from './Success';
 /**We have done dynamicall import of about component , it is load only when we
  * route to this compontnt that is callaed the lazy loading */
 const About = lazy(() => import('./About'));
@@ -21,7 +22,7 @@ function App() {
       name: 'Rahul',
     };
     setusername(data.name);
-    console.log(username);
+    // console.log(username);
   }, []);
 
   return (
@@ -59,6 +60,10 @@ export const appRouter = createBrowserRouter([
       {
         path: '/restaurant/:resId',
         element: <RestaurantMenu />,
+      },
+      {
+        path: '/success',
+        element: <Success />,
       },
       {
         path: '/cart',
