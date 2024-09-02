@@ -44,14 +44,20 @@ function Header() {
             />
           </button>
         </div>
-        <div className="flex items-center max-[768px]:w-[40%]">
-          <img className="h-24" src={restaurantLog} alt="restaurant logo" />
-          <span className="font-bold text-3xl">QuickBite</span>
+        <div className="flex items-center max-[768px]:w-[40%] req-position">
+          <img
+            className="h-20 max-[574px]:h-[40px]"
+            src={restaurantLog}
+            alt="restaurant logo"
+          />
+          <span className="font-bold text-3xl max-[576px]:text-xl">
+            QuickBite
+          </span>
         </div>
         <div
           className={`md:flex ${
             isOpen
-              ? 'max-[768px]:flex max-[768px]:w-[50%] max-[768px]:items-end max-[768px]:justify-end'
+              ? 'max-[768px]:flex max-[768px]:w-[50%] max-[768px]:items-end max-[768px]:justify-end test-lor'
               : 'hidden'
           } flex-col md:flex-row md:items-center md:space-x-6`}
         >

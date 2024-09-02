@@ -104,7 +104,7 @@ function Body() {
   return (
     <div className="m-auto p-5 w-5/6">
       <div className="req-header">
-        <div className="header-content font-bold text-3xl max-[576px]:text-xl max-[576px]:font-normal  text-white  ">
+        <div className="header-content font-bold text-3xl max-[992px]:text-lg max-[576px]:text-xl max-[576px]:font-normal  text-white  ">
           Find the best food here ...
         </div>
       </div>
