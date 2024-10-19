@@ -50,7 +50,7 @@ const Contact = () => {
             name="email"
             value={formData.email}
             onChange={handleChange}
-            placeholder="name@flowbite.com"
+            placeholder="email"
             style={{
               width: '100%',
               padding: '10px',
